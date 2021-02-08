@@ -24,10 +24,6 @@ section p {
   line-height: 2.1em;
 }
 
-.mainview {
-  height: 90vh;
-}
-
 .mainview .name {
   display: -webkit-box;
   display: -ms-flexbox;
