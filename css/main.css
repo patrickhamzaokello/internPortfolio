@@ -6,6 +6,97 @@
 }
 
 section {
-  padding: 2em 0;
+  padding: 9em 0;
+}
+
+section p,
+section h1 {
+  font-family: "Poppins";
+  color: #333;
+}
+
+section h1 {
+  margin-bottom: 1em;
+  color: black;
+}
+
+section p {
+  line-height: 2.1em;
+}
+
+.mainview {
+  height: 90vh;
+}
+
+.mainview .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainview .introtext {
+  color: black;
+}
+
+.mainview .profileimage {
+  display: block;
+}
+
+.mainview .profileimage img {
+  -webkit-box-shadow: -2px 8px 11px 3px #ecf0f3;
+          box-shadow: -2px 8px 11px 3px #ecf0f3;
+}
+
+.mainview .calltoaction {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.mainview .calltoaction .emailbutton {
+  padding: 1em 2em;
+  outline: none;
+  border: 2px solid #fff;
+  background-color: white;
+  display: block;
+  color: #666;
+  -webkit-box-shadow: -1px 1px 12px 6px #ecf0f3;
+          box-shadow: -1px 1px 12px 6px #ecf0f3;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin: 2em 0;
+}
+
+.mainview .calltoaction .emailbutton:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav {
+  background-color: #f5f5f5 !important;
+  color: gray !important;
+}
+
+nav .navbar-brand {
+  color: #5d5d5c;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav .collapse ul .active {
+  color: yellow !important;
+}
+
+nav .collapse ul li a {
+  color: #60636b;
+}
+
+.schoolbackground {
+  padding-top: 2em;
 }
 /*# sourceMappingURL=main.css.map */
